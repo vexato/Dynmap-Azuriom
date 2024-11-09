@@ -1,0 +1,15 @@
+{
+    "id": "dynmap",
+    "name": "Dynmap",
+    "description": "Dynmap map on your site",
+    "version": "1.0.0",
+    "url": "https://azuriom.com",
+    "authors": [
+        "Vexato"
+    ],
+    "azuriom_api": "1.1.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\Dynmap\\Providers\\DynmapServiceProvider",
+        "\\Azuriom\\Plugin\\Dynmap\\Providers\\RouteServiceProvider"
+    ]
+}
